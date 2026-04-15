@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>
+Sign up
+</title>
+       <link rel="shortcut icon" type="image/jpg" href="Aske.png"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</head>
+<body>
+
+ <link rel="stylesheet" type="text/css" href="sign up.css">
+
+
+
+
+<h1 style="color:white; position: absolute; top:-3%; left:43%; " >
+<a href="home page.html">
+<img src = " Aske.png" width="200px" hight="200px"  > </h1>
+</a>
+
+
+	<form method="post"    action="">
+	<br><br>
+	<label style="color: #00bfff;">Enter Your Full Name ... </label>
+	<br>
+	<input type="text" name="sname" placeholder="Enter your name here" size="30" maxlength="50">
+	<br><br>
+
+	<label style="color: #00bfff;">Enter Your Email Address </label>
+		<br>
+	<input type="email" name="sname" placeholder="Enter your Email" size="30" maxlength="60">
+<br><br>
+	<label style="color: #00bfff;"> Enter Your password :</label>
+	<br>
+	<input type="password" name="pass" placeholder="At least 8 " >
+
+	<br><br>
+<label style="color: #00bfff;"> Select your gender :</label>
+<br><br>
+	<select name="men">
+		<option>Male</option>
+		<option>Female</option>
+     </select>
+
+
+    <br><br>
+
+
+
+	<label style="color: #00bfff;"> Pick what attract you :</label>
+<p>
+	<input type="checkbox" name="attract" style ="flex-direction:row;"><label> pet </label>
+	 <br>
+	 <input type="checkbox" name="attract" ><label> Music</label>
+	 <input type="checkbox" name="attract"><label> Clothes</label>
+	 <br>
+	 <input type="checkbox" name="attract"><label> Home </label>
+ </p>
+	<br>
+<br>
+<p>
+<br>
+</form>
+
+<input type="Reset" name="res" value="Reset" class="send"  style=" position: absolute; left:50.8%; top:75%;   line-height: 0.8;"  >
+
+
+
+
+<button class="send form input"  style= " position: absolute; left:41%; top:75%;  line-height: 0.8; font-family: Helvetica; " > Submit </button>
+
+<script>
+let btnShow = document.querySelector('button');
+btnShow.addEventListener('click', () => {
+    swal({
+        title: 'welcome !',
+        text: 'please click submit to complete ... ',
+        icon: 'success',
+        button: 'Submit'
+    });
+});
+</script>
+
+
+<nav>
+ <ul style=" position: absolute; left:55%; top:6.4%;">
+
+
+<li><a href="Home page.html">Home page</a></li>
+         <li><a href="categories.html">Categories</a></li>
+         <li><a href="About us.html">About Us</a></li>
+         <li><a href="contact-us.html">Contact us</a></li>
+         <li><a href="table.html">coupon</a></li>
+
+       </ul>
+</nav>
+
+
+</body>
+</html>
